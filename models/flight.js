@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 // set up our shortcut variable
 const Schema = mongoose.Schema;
 //initialize our flightSchema
-const flightSchema = new Schema ({
+const moflightSchema = new Schema ({
     airline: {
         type: String,
         enum: ['American', 'Southwest', 'United']
